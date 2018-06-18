@@ -42,7 +42,7 @@ end
 
 def kesha_maker(array)
   array.each do |a|
-    word = a.to_a
+    word = a.split
     word[2] = "$"
     a = word.to_s
   end
