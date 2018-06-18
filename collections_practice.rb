@@ -26,12 +26,19 @@ def sort_array_char_count(array)
   end
 end
 
-def swap_elements
-
+def swap_elements(array)
+  array.each do |x|
+    swap_elements_from_to(array,0,1)
+  end
 end
 
-def reverse_array
+def swap_elements_from_to(array,a,b)
+  
+end
 
+
+def reverse_array(array)
+  array.reverse
 end
 
 def kesha_maker
