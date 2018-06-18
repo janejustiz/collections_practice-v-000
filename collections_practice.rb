@@ -49,8 +49,6 @@ def kesha_maker(array)
   array
 end
 
-end
-
 def find_a
 
 end
