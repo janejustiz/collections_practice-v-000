@@ -55,6 +55,7 @@ def find_a(array)
     if word(0) != "a"
       a.delete
     end
+  end
 end
 
 def sum_array
