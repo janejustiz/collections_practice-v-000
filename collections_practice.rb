@@ -52,7 +52,7 @@ end
 def find_a(big)
   big.each do |word|
     array = word.split("")
-    if array(0) != "a"
+    if array[0] != "a"
       array.delete(word)
     end
   end
