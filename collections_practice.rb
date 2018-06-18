@@ -58,7 +58,7 @@ def find_a(array)
     end
   end
   delete.each do |a|
-    array.delete[a]
+    array.delete(a)
   end
 end
 
