@@ -28,13 +28,20 @@ end
 
 def swap_elements(array)
   array.each do |x|
-    swap_elements_from_to(array,0,1)
+    swap_elements_from_to(array,1,2)
   end
 end
 
-def swap_elements_from_to(array,a,b)
-  array.delete(a)
-  array << array[a]
+def swap_elements_from_to(array,first,second)
+  array.sort do |a, b|
+    if array(a) == array(b)
+      0
+    elsif array(a) > array(b)
+      -1
+    elsif array(a) < array(b)
+      1
+    end
+  end
 end
 
 
