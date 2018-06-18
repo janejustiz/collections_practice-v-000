@@ -60,6 +60,7 @@ def find_a(array)
   delete.each do |a|
     array.delete(a)
   end
+  array
 end
 
 def sum_array(array)
