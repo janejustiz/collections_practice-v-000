@@ -60,8 +60,9 @@ end
 
 def sum_array(array)
   count = 0
-  until count = array.length
-    array(0) = array(0)+array(1)
+  word
+  while count < array.length
+    word = array(0) + array(1)
     counter+=1
   end
 end
