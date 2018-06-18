@@ -71,7 +71,6 @@ def add_s(array)
     if a == array[1]
     else
       word = a.split("")
-      word.delete(word.last)
       word.insert(word.length + 1,"s")
       array[b] = word.join
     end
