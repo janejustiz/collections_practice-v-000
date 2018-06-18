@@ -63,4 +63,5 @@ def sum_array(array)
   array.each do |a|
     sum+=a
   end
+  sum
 end
