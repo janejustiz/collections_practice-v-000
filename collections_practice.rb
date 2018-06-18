@@ -50,10 +50,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.each do |a|
-    word = a.split("")
-    if word(0) != "a"
-      a.delete
+  array.each do |word|
+    array = word.split("")
+    if array(0) != "a"
+      array.delete(word)
     end
   end
 end
