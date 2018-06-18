@@ -69,7 +69,6 @@ end
 def add_s(array)
   array.each_with_index do |a,b|
     if a == array[1]
-      return a
     else
       word = a.split("")
       word.delete(word.last)
