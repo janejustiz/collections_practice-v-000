@@ -34,11 +34,11 @@ end
 
 def swap_elements_from_to(array,first,second)
   array.sort do |a, b|
-    if array(a) == array(b)
+    if array(first) == array(second)
       0
-    elsif array(a) > array(b)
+    elsif array(first) > array(second)
       -1
-    elsif array(a) < array(b)
+    elsif array(first) < array(second)
       1
     end
   end
