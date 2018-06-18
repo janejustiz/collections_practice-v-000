@@ -36,12 +36,14 @@ def swap_elements_from_to(array,a,b)
   array[a], array[b] = array[b], array[a]
 end
 
-
 def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker
+def kesha_maker(array)
+  array.each do |a|
+  a << "$"
+end
 
 end
 
