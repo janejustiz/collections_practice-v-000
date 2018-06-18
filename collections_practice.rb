@@ -49,8 +49,12 @@ def kesha_maker(array)
   end
 end
 
-def find_a
-
+def find_a(array)
+  array.each do |a|
+    word = a.split("")
+    if word(0) != "a"
+      a.delete  
+    end
 end
 
 def sum_array
