@@ -59,14 +59,8 @@ def find_a(big)
 end
 
 def sum_array(array)
-  count = 0
-  word = 1
-  while count < array.length
-    word = array(0) + array(1)
-    counter+=1
+  sum = 0
+  array.each do |a|
+    sum+=a
   end
-end
-
-def add_s
-
 end
