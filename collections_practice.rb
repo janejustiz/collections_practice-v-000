@@ -46,7 +46,6 @@ def kesha_maker(array)
     word[2] = "$"
     a = word.to_s
   end
-  array
 end
 
 def find_a
