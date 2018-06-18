@@ -32,16 +32,8 @@ def swap_elements(array)
   end
 end
 
-def swap_elements_from_to(array,first,second)
-  array.sort do |a, b|
-    if array(first) == array(second)
-      0
-    elsif array(first) > array(second)
-      -1
-    elsif array(first) < array(second)
-      1
-    end
-  end
+def swap_elements_from_to(array,a,b)
+  array[a], array[b] = array[b], array[a]
 end
 
 
