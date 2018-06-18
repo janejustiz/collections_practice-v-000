@@ -41,10 +41,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |a|
+  array.each_with_index do |a,b|
     word = a.split
     word[2] = "$"
-    a = word.to_s
+    array[b] = word.to_s
   end
 end
 
