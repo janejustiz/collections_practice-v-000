@@ -53,7 +53,7 @@ def find_a(array)
   array.each do |a|
     word = a.split("")
     if word(0) != "a"
-      a.delete  
+      a.delete
     end
 end
 
