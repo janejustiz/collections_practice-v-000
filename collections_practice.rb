@@ -65,3 +65,15 @@ def sum_array(array)
   end
   sum
 end
+
+def add_s(array)
+  array.each_with_index do |a,b|
+    if a == array(1)
+    else
+      word = a.split("")
+      word.delete(word.last)
+      word.insert(world.length,"s")
+      array[b] = word.join
+    end
+  end
+end
