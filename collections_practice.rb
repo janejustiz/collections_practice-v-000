@@ -45,7 +45,8 @@ def kesha_maker(array)
     word = a.split("")
     word.delete_at(2)
     word.insert(2,"$")
-    array[b] = word.to_s
+    new_word = word.to_s
+    array[b] = new_word
   end
 end
 
