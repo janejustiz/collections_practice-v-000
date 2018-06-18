@@ -50,12 +50,15 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  delete=[]
   array.each do |word|
     word_array = word.split("")
     if word_array[0] != "a"
-      array.delete(word)
+      delete << word
     end
   end
+  delete.each do |a|
+    array.delete[a]
 end
 
 def sum_array(array)
