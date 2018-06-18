@@ -33,7 +33,8 @@ def swap_elements(array)
 end
 
 def swap_elements_from_to(array,a,b)
-
+  array.delete(a)
+  array << array[a]
 end
 
 
