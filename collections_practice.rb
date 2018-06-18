@@ -49,10 +49,10 @@ def kesha_maker(array)
   end
 end
 
-def find_a(big)
-  big.each do |word|
-    array = word.split("")
-    if array[0] != "a"
+def find_a(array)
+  array.each do |word|
+    word_array = word.split("")
+    if word_array[0] != "a"
       array.delete(word)
     end
   end
