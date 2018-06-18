@@ -51,7 +51,7 @@ end
 
 def find_a(array)
   array.each do |word|
-    word_array = word.split("")
+    word_array = word.split
     if word_array[0] != "a"
       array.delete(word)
     end
