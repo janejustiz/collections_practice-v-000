@@ -58,8 +58,12 @@ def find_a(big)
   end
 end
 
-def sum_array
-
+def sum_array(array)
+  count = 0
+  while 0 <= array.length
+    array(0) = array(0)+array(1)
+    counter+=1
+  end
 end
 
 def add_s
